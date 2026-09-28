@@ -1,0 +1,18 @@
+.jaai-highlight { outline: 2px solid #6d5dfc !important; outline-offset: 2px !important; }
+#jaai-review-root { position: fixed; inset: 0; z-index: 2147483647; font-family: Inter, system-ui, sans-serif; }
+#jaai-review-root * { box-sizing: border-box; }
+.jaai-backdrop { position:absolute; inset:0; background:rgba(15,23,42,.58); }
+.jaai-panel { position:absolute; right:18px; top:18px; bottom:18px; width:min(520px, calc(100vw - 36px)); background:#fff; color:#172033; border-radius:18px; box-shadow:0 24px 80px rgba(0,0,0,.32); display:flex; flex-direction:column; overflow:hidden; }
+.jaai-header { padding:18px 20px; border-bottom:1px solid #e8eaf0; display:flex; gap:12px; align-items:center; justify-content:space-between; }
+.jaai-header h2 { margin:0; font-size:19px; }
+.jaai-sub { color:#687386; font-size:12px; margin-top:4px; }
+.jaai-list { overflow:auto; padding:10px 16px 110px; }
+.jaai-row { display:grid; grid-template-columns:26px 1fr; gap:10px; padding:12px 4px; border-bottom:1px solid #f0f1f5; }
+.jaai-label { font-weight:650; font-size:13px; }
+.jaai-meta { color:#7a8598; font-size:11px; margin:3px 0 7px; }
+.jaai-value { width:100%; border:1px solid #d9dce5; border-radius:9px; padding:9px 10px; font-size:13px; }
+.jaai-footer { position:absolute; left:0; right:0; bottom:0; padding:14px 18px; border-top:1px solid #e8eaf0; background:#fff; display:flex; gap:10px; }
+.jaai-btn { border:0; border-radius:10px; padding:11px 14px; font-weight:700; cursor:pointer; }
+.jaai-primary { background:#171b2c; color:#fff; flex:1; }
+.jaai-secondary { background:#eef0f5; color:#242b3b; }
+.jaai-badge { font-size:11px; padding:4px 8px; border-radius:999px; background:#eef0ff; color:#4b3ee8; }
